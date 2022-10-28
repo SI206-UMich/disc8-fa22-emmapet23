@@ -16,7 +16,7 @@ def getLink(soup):
 def getAdmissionsInfo2019(soup):
     lst = soup.find_all("tr")
     for table_item in lst:
-        table_item.get("href") #or is it b
+        table_item.get("href") #or is it b?
     pass
 
 
